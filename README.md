@@ -73,3 +73,22 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
   Nest is [MIT licensed](LICENSE).
+## Запуск контейнеров
+1. docker-compose up --build -d container-name
+
+## Дополинтельно пробросьте dump.sql после запуска контейнера
+  * https://stackoverflow.com/questions/6842393/import-sql-dump-into-postgresql-database
+  
+## Api 
+  ![image](https://github.com/Morgan6666/records-nest/assets/61843517/64a3351a-64f2-461a-bd0d-7e54228121b1)
+  Sign
+    Url: http://localhost:3011/users/sign
+    Method: POST
+    Payload:  {
+        "first_name": "Morgan",
+        "last_name": "test",
+        "email": "test6@mail.ru",
+        "password": "test_3",
+        "isDoctor": true 
+      }
+   
