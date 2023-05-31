@@ -18,40 +18,8 @@ $ npm install
 ```bash
 # development
 $ npm run start
-
-# watch mode
-$ npm run start:dev
-
-# production mode
-$ npm run start:prod
 ```
 
-## Test
-
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
-```
-
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-  Nest is [MIT licensed](LICENSE).
 ## Запуск контейнеров
 1. docker-compose up --build -d container-name
 
@@ -60,9 +28,7 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
   
 ## Api 
   ![image](https://github.com/Morgan6666/records-nest/assets/61843517/64a3351a-64f2-461a-bd0d-7e54228121b1)
-  Sign
-    Url: http://localhost:3011/users/sign
-    Method: POST
+  ##Sign
     Payload:  {
         "first_name": "Morgan",
         "last_name": "test",
@@ -70,4 +36,28 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
         "password": "test_3",
         "isDoctor": true 
       }
-   
+      
+   Response: {
+      "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAsImlzX2RvYyI6dHJ1ZSwiaWF0IjoxNjg1NTM3OTUxLCJleHAiOjE2ODU1Mzg4NTF9.6H_H9yYT9jMiDXWwpt3AXCgoyYg-FJBmq2M1gnEb17U",
+        "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAsImlzX2RvYyI6dHJ1ZSwiaWF0IjoxNjg1NTM3OTUxLCJleHAiOjE2ODYxNDI3NTF9.GtKuwCq-_j_c_rUG1dobZEosbLU8sTbC96XQ1sMSt9c"
+        } 
+  ##Add record
+   record/add/:token
+        Payload: {
+          "slots": ["2023-05-20 01:04:53.000000", "2023-05-21 01:04:53.000000"]
+        }
+   ## Add appointment
+   appo/add/
+   Payload: 
+       {
+        "doc_email": "test5@mail.ru",
+        "time_receipt": "2023-05-20 01:04:53.000000"
+       }
+       
+   ## Update appointment
+    users/appo/up/status
+    payload: 
+      {
+        user_email: string; 
+        status: boolean; (true/false)
+      }
