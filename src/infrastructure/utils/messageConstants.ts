@@ -1,0 +1,41 @@
+export const USER_DOESNT_EXIST = 'User doesnt exist';
+export const USER_ALREADY_EXIST = 'User already exist';
+export const USER_SUCCESSFULLY_CREATED = 'User successfully created';
+export const USER_PASSWORD_SUCCESS = 'Password successfully updated';
+export const USER_NOT_AUTHORISATE = 'User not authorisate';
+export const META_SUCCESSFULLY_ADDED = 'Meta successfully  created';
+export const INTERNAL_SERVER_ERROR = 'Internal server error';
+export const DOCTOR_SUCCESSFULY_CREATED = 'Doctor successfully created';
+export const DOCTOR_ALREADY_EXISTS = 'Doctor already exists';
+export const DOCTOR_DOESNT_EXISTS = 'Doctor doesnt exist';
+export const PATIENTS_DOESNT_EXISTS = 'Patients doesnt exist';
+export const DOCUMENTS_ADD_SUCCESSFULLY = 'Documents add successfull';
+export const DOCUMENTS_NOT_FOUND = 'Documents not found';
+export const DOCUMENTS_ERROR = 'Something wants wrong in addDocuments';
+export const DOCUMENTS_ALREADY_EXISTS = 'User document already exist';
+export const CLIENT_POLIS_ALREADY_EXISTS = 'Client polis already exists';
+export const CLIENT_POLIS_SUCCESSFULLY_ADDED =
+  'Client polis successfully added';
+export const PASSWORD_MISMATCH = 'Password mismatch';
+export const CATEGORIES_NOT_FOUND = 'Categories not found'
+export const SERVICE_STORAGE_ERROR = 'Ошибка сервиса storage';
+export const SERVICE_USER_ERROR = 'Ошибка сервиса user';
+export const SERVICE_MARKET_ERROR = 'Ошибка сервиса market';
+export const SUCCESS = 'success';
+export const SUCCESS_DRUG_ADD = 'Данные по лекарству успешно добавлены';
+export const RECORD_ALREADY_EXIST = 'Запись уже существует';
+export const RECORD_ADDED_SUCCESS = 'Запись успешно добавлена';
+export const RECORD_ALREADY_CLOSE = 'Запись закрыта';
+export const RECORD_SUCCESS_UPDATED = 'Запись успешно обновлена';
+export const RECORD_DOESNT_VALID = 'Слот времени не существует';
+export const RECORD_DOESNT_EXISST  = 'Запись не найдена';
+
+export const CODE_404 = 404;
+export const CODE_500 = 500;
+export const CODE_403 = 403;
+export const CODE_200 = 200;
+export const CODE_409 = 409;
+export const SUCCESS_FALSE = false;
+export const SUCCESS_TRUE = true;
+
+export const EMPTY_CONTENT = {};

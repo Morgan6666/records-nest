@@ -1,0 +1,1 @@
+{"version":3,"file":"AppointmentModel.js","sourceRoot":"","sources":["../../../../src/domain/models/AppointmentModel.ts"],"names":[],"mappings":";;;AAGA,MAAa,gBAAgB;IAMzB,MAAM,CAAC,MAAe;QAClB,IAAI,CAAC,CAAC,MAAM,YAAY,gBAAgB,CAAC;YAAE,OAAO,KAAK,CAAC;QACxD,OAAO,IAAI,CAAC,SAAS,KAAK,MAAM,CAAC,SAAS,CAAC;IAC7C,CAAC;CAEN;AAXD,4CAWC"}

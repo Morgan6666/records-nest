@@ -1,0 +1,1 @@
+{"version":3,"file":"JwtTokenModel.js","sourceRoot":"","sources":["../../../../src/domain/models/JwtTokenModel.ts"],"names":[],"mappings":";;;AAEA,MAAa,aAAa;IAExB,YAAY,EAAU;QACpB,IAAI,CAAC,EAAE,GAAG,EAAE,CAAC;IACf,CAAC;IACD,MAAM,CAAC,MAAe;QACpB,IAAI,CAAC,CAAC,MAAM,YAAY,aAAa,CAAC;YAAE,OAAO,KAAK,CAAC;QACrD,OAAO,IAAI,CAAC,EAAE,KAAK,MAAM,CAAC,EAAE,CAAC;IAC/B,CAAC;CACF;AATD,sCASC"}
