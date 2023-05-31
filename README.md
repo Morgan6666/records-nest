@@ -61,3 +61,10 @@ $ npm run start
         user_email: string; 
         status: boolean; (true/false)
       }
+      
+   ##Add record
+    recprd/add/
+    Payload: 
+        {
+        "slots": ["2023-05-20 01:04:53.000000", "2023-05-21 01:04:53.000000"]
+        }
